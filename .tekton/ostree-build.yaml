@@ -211,7 +211,7 @@ spec:
           - name: name
             value: rpm-ostree
           - name: bundle
-            value: quay.io/scoheb/task-rpm-ostree@sha256:8279edc7908b3de2625a7fac029b3c4ca5f01929c04c9105b99ebdf01ca8e4aa
+            value: quay.io/scoheb/task-rpm-ostree:latest
           - name: kind
             value: task
         resolver: bundles
@@ -246,7 +246,7 @@ spec:
           - name: name
             value: rpm-ostree
           - name: bundle
-            value: quay.io/scoheb/task-rpm-ostree@sha256:8279edc7908b3de2625a7fac029b3c4ca5f01929c04c9105b99ebdf01ca8e4aa
+            value: quay.io/scoheb/task-rpm-ostree:latest
           - name: kind
             value: task
         resolver: bundles
@@ -281,7 +281,7 @@ spec:
           - name: name
             value: rpm-ostree
           - name: bundle
-            value: quay.io/scoheb/task-rpm-ostree@sha256:8279edc7908b3de2625a7fac029b3c4ca5f01929c04c9105b99ebdf01ca8e4aa
+            value: quay.io/scoheb/task-rpm-ostree:latest
           - name: kind
             value: task
         resolver: bundles
