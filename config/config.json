@@ -1,6 +1,6 @@
 {
     "Env": [
-        "FOO=BAR",
+        "FOO=BAR"
     ],
     "Labels": {
         "scott": "HEBERT",
