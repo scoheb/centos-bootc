@@ -1,5 +1,6 @@
 # centos-bootc
 
+# Force 1
 Create and maintain base *bootable* container images from Fedora ELN and
 CentOS Stream packages.
 
