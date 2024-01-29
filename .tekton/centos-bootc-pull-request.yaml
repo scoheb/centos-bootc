@@ -16,7 +16,7 @@ metadata:
     appstudio.openshift.io/component: centos-bootc
     pipelines.appstudio.openshift.io/type: build
   name: centos-bootc-on-pull-request
-  namespace: centos-bootc-tenant
+  namespace: shebert-tenant
 spec:
   params:
     - name: image-file
