@@ -65,17 +65,6 @@ spec:
             requests:
               storage: 2Gi
         status: {}
-    - name: workspace-ppc64le
-      volumeClaimTemplate:
-        metadata:
-          creationTimestamp: null
-        spec:
-          accessModes:
-            - ReadWriteOnce
-          resources:
-            requests:
-              storage: 2Gi
-        status: {}
     - name: git-auth
       secret:
         secretName: "{{ git_auth_secret }}"
