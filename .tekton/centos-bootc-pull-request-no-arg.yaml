@@ -15,7 +15,7 @@ metadata:
     appstudio.openshift.io/application: centos-bootc
     appstudio.openshift.io/component: centos-bootc
     pipelines.appstudio.openshift.io/type: build
-  name: centos-bootc-on-pull-request
+  name: centos-bootc-on-pull-request-no-arg
   namespace: shebert-tenant
 spec:
   params:
