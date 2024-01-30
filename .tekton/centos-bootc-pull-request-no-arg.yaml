@@ -24,7 +24,7 @@ spec:
     - name: git-url
       value: "{{repo_url}}"
     - name: output-image
-      value: quay.io/redhat-user-workloads/shebert-tenant/centos-bootc/centos-bootc:on-pr-{{revision}}
+      value: quay.io/redhat-user-workloads/shebert-tenant/centos-bootc/centos-bootc:on-pr-no-arg-{{revision}}
     - name: path-context
       value: .
     - name: revision
